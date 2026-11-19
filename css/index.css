@@ -1,0 +1,93 @@
+:root {
+  /* COLOR */
+  --color-dark: #1f1f1f;
+  --color-light: #f3f3f3;
+  --color-brand: #4391f0;
+  --color-error: #e26868;
+
+  /* SIZES */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.625rem;
+  --size-sm: 1rem;
+  --size-md: 2rem;
+  --size-lg: 4rem;
+
+  --size-block: 60.25rem;
+  --size-canvas: 90rem;
+
+  /* Radius */
+
+  --radius-small: 0.3125rem;
+
+  /* Fonts */
+
+  --font-h1: 400 clamp(3rem, 5vw, 4rem) "Hedvig Letters Serif", serif;
+  --font-h2: 400 clamp(1.5rem, 5vw, 2.125rem) "Hedvig Letters Serif", serif;
+  --font-h3: 400 clamp(1.1875rem, 5vw, 1.5rem) "Hedvig Letters Serif", serif;
+  --font-h4: 400 clamp(1.0625rem, 5vw, 1.1875rem) "Hedvig Letters Serif", serif;
+  --font-p: 400 0.9375rem "Instrument Sans", sans-serif;
+  --font-link: 500 0.9375rem "Instrument Sans", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    intruments "Instrument Sans",
+    sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Components */
+
+h1,
+.heading-h1 {
+  font: var(--font-h1);
+}
+
+h2,
+.heading-h2 {
+  font: var(--font-h2);
+}
+
+h3,
+.heading-h3 {
+  font: var(--font-h3);
+}
+
+h4,
+.heading-h4 {
+  font: var(--font-h4);
+}
+
+p,
+span,
+li,
+.font-p {
+  font: var(--font-p);
+}
+
+a,
+.font-link {
+  font: var(--font-link);
+}
